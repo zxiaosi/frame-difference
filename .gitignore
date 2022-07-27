@@ -1,0 +1,6 @@
+.idea
+*.log*
+logs
+__pycache__
+static/out/*.*
+static/result/*.*
