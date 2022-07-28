@@ -12,7 +12,7 @@ class Settings(BaseSettings):
     SECOND_PIC_INPUT: str = "./images/2.png"  # 输入图片
     OUTPUT: str = "./images/result.png"  # 输出结果图片
 
-    ZOOM_RATIO: float | tuple[int, int] = (800, 600)  # 缩放倍数 (0.5 or (400, 300))
+    ZOOM_RATIO: float | tuple[int, int] = 1  # 缩放倍数 (0.5 or (400, 300))
     GRAD_MAP_CHOICE: int = 1  # 梯度图选择 (可选值 1, 2, 3)
     DIFF_THRESH: float = 0.5  # 差值阈值 (根据图片自定义)
 
